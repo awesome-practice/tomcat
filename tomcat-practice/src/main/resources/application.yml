@@ -1,0 +1,8 @@
+server:
+  port: 9201
+  connection-timeout: 5s
+  tomcat:
+    min-spare-threads: 1
+    max-threads: 1
+    accept-count: 1
+    max-connections: 1
